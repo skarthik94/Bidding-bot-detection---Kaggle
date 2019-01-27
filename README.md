@@ -1,6 +1,7 @@
 # Bidding-bot-detection---Kaggle
 Detection of bots on an online auction website
 
+The bid data file was too large to upload, it can be found here: https://www.kaggle.com/c/facebook-recruiting-iv-human-or-bot/data
 
 The Problem
 
