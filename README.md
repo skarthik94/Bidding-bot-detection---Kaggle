@@ -1,9 +1,11 @@
 # Bidding-bot-detection---Kaggle
 Detection of bots on an online auction website
 
+
 The Problem
 
 The focus of my project is be differentiating between humans and ‘bots’ specifically on an online auction site. In the context of the online auction websites, bots are able to win auctions far more easily than humans. This leads to frustration among the human users which in turn leads to them refraining from using the website. 
+
 
 The Data
 
@@ -11,6 +13,7 @@ The Data
 Bid data has all the bids made by the users.
 The training data has the bidder IDs, the outcome(whether the particular ID was found to be a bot or not), the payment and address.
 The testing data has all the same columns as the training data but no outcomes. The outcomes are to be predicted and given to kaggle to be evaluated. We cannot see the ideal outcome.
+
 
 Model Creation
 
@@ -27,6 +30,7 @@ The data did not need to be scaled because I used the random forest algorithm.
 I used both logistic and random forest to make the model. 
 Logistic regression gave me a list of zeros which got me a score of 0.50.
 With multiple attempts using random forest by tweaking the n estimator parameter, the best score I got was 0.83391.
+
 
 Challenges I faced
 
